@@ -1,0 +1,24 @@
+header{
+  background: #36C3EC;
+  margin-top: 0px;
+}
+main{
+	width: 100%;
+	min-height: 500px;
+	max-height: auto;
+}
+
+@media screen (max-width: 400px){
+	main{
+		padding: 10px;
+	}
+}
+footer{
+  background: #0D0D0D;
+}
+.background-white{
+	background: #FFFFFF;
+}
+
+
+
