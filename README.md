@@ -3,6 +3,7 @@
 [![Build Status](https://img.shields.io/travis/cakephp/app/master.svg?style=flat-square)](https://travis-ci.org/cakephp/app)
 [![License](https://img.shields.io/packagist/l/cakephp/app.svg?style=flat-square)](https://packagist.org/packages/cakephp/app)
 
+El proyecto tratara de informar a la ciudadania acerca de las leyes y sus legisladores, entregando transparencia en el sistema legislativo y empoderamiento ciudadano al tomar una eleccion a la hora de botar.
 A skeleton for creating applications with [CakePHP](http://cakephp.org) 3.x.
 
 The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
