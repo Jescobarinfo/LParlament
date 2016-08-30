@@ -1,6 +1,6 @@
 # L-Parlament
 
-El proyecto tratara de informar a la ciudadania acerca de las leyes y sus legisladores, entregando transparencia en el sistema legislativo y empoderamiento ciudadano al tomar una eleccion a la hora de botar.
+El proyecto tratara de informar a la ciudadania acerca de las leyes y sus legisladores, entregando transparencia en el sistema legislativo y empoderamiento ciudadano al tomar una eleccion a la hora de votar.
 
 ## Api´s 
 
