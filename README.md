@@ -1,16 +1,10 @@
 # L-Parlament
 
-[![Build Status](https://img.shields.io/travis/cakephp/app/master.svg?style=flat-square)](https://travis-ci.org/cakephp/app)
-[![License](https://img.shields.io/packagist/l/cakephp/app.svg?style=flat-square)](https://packagist.org/packages/cakephp/app)
-
 El proyecto tratara de informar a la ciudadania acerca de las leyes y sus legisladores, entregando transparencia en el sistema legislativo y empoderamiento ciudadano al tomar una eleccion a la hora de botar.
-A skeleton for creating applications with [CakePHP](http://cakephp.org) 3.x.
 
-The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
+## Api´s 
 
-## Installation
-
-1. Download [Composer](http://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
+1. Vamos a utilizar la api que nos provee leychile.cl para sus desarrolladores entregandonos la informacion fidedigna y actualizada
 2. Run `php composer.phar create-project --prefer-dist cakephp/app [app_name]`.
 
 If Composer is installed globally, run
