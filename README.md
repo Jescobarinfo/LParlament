@@ -5,7 +5,7 @@ El proyecto tratara de informar a la ciudadania acerca de las leyes y sus legisl
 ## Api´s 
 
 1. Vamos a utilizar la api que nos provee leychile.cl para sus desarrolladores entregandonos la informacion fidedigna y actualizada
-2. Run `php composer.phar create-project --prefer-dist cakephp/app [app_name]`.
+2. Tambien se ocupara la api de google para hacer graficos llamada "google chart", para resumir la gran cantidad de informacion.
 
 If Composer is installed globally, run
 ```bash
