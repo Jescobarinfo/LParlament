@@ -6,14 +6,11 @@ El proyecto tratara de informar a la ciudadania acerca de las leyes y sus legisl
 
 1. Vamos a utilizar la api que nos provee leychile.cl para sus desarrolladores entregandonos la informacion fidedigna y actualizada
 2. Tambien se ocupara la api de google para hacer graficos llamada "google chart", para resumir la gran cantidad de informacion.
+3. Se ocupara ademas una base de datos para tener informacion de los visitantes y usuarios, generando un espacio para debatir entre los mismos mienbros.
 
-If Composer is installed globally, run
-```bash
-composer create-project --prefer-dist cakephp/app [app_name]
-```
+## Framwork
 
-You should now be able to visit the path to where you installed the app and see
-the setup traffic lights.
+El framework utilizado sera cakephp en su version mas reciente y estable 3.3 con mysql version
 
 ## Configuration
 
