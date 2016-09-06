@@ -1,18 +1,23 @@
-# L-Parlament
+# Partley
 
-El proyecto tratara de informar a la ciudadania acerca de las leyes y sus legisladores, entregando transparencia en el sistema legislativo y empoderamiento ciudadano al tomar una eleccion a la hora de votar.
+## Descripcion
 
-## Api´s 
+Desarrollar una aplicación web para ayudar a la transparencia legislativa en chile. Entregando información actualizada, resumida y amigable al usuario.
 
-1. Vamos a utilizar la api que nos provee leychile.cl para sus desarrolladores entregandonos la informacion fidedigna y actualizada
-2. Tambien se ocupara la api de google para hacer graficos llamada "google chart", para resumir la gran cantidad de informacion.
-3. Se ocupara ademas una base de datos para tener informacion de los visitantes y usuarios, generando un espacio para debatir entre los mismos mienbros.
+## OBJETIVOS 
 
-## Framwork
+a)	Mejorar la participación ciudadana
+b)	Trasparentar las actividades legislativas
+c)	Informar las tendencias e históricos
+d)	Simplificar la información expuesta
+e)	Generar instancias de debate
 
-El framework utilizado sera cakephp en su version mas reciente y estable 3.3 con mysql version
+
+## Especificaciones
+
+El framework utilizado sera cakephp en su version mas reciente y estable 3.3 con mysql en version 5.5.9 o mas reciente.
+Se utilizara la api de leychile.cl y se extraeran datos de senado.cl
 
 ## Configuration
 
-Read and edit `config/app.php` and setup the 'Datasources' and any other
-configuration relevant for your application.
+Leer y editar el archivo `config/app.php` y settear los recursos y otras configuraciones relevantes para tu aplicación.
