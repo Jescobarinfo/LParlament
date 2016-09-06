@@ -1,6 +1,6 @@
 # Partley
 
-## Descripcion
+## Descripción
 
 Desarrollar una aplicación web para ayudar a la transparencia legislativa en chile. Entregando información actualizada, resumida y amigable al usuario.
 
