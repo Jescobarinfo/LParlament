@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Aplicación web para apoyar a la transparencia legislativa en Chile. Entrega información, gráficos interactivos y amigables al usuario, generando instancias de debate.
+Aplicación web para apoyar la transparencia legislativa en Chile. Entrega información, gráficos interactivos y amigables al usuario, respecto del proceso legislativo.
 
 ## Objetivos
 
