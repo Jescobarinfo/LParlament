@@ -1,8 +1,8 @@
-# Part-ley
+# parTley
 
 ## Descripción
 
-Aplicación web para ayudar a la transparencia legislativa en Chile. Entregando gráficos interactivos y amigables al usuario, generando instancias de debate.
+Aplicación web para apoyar a la transparencia legislativa en Chile. Entrega información, gráficos interactivos y amigables al usuario, generando instancias de debate.
 
 ## Objetivos
 
