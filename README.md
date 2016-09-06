@@ -4,7 +4,7 @@
 
 Desarrollar una aplicación web para ayudar a la transparencia legislativa en chile. Entregando información actualizada, resumida y amigable al usuario.
 
-## OBJETIVOS 
+## Objetivos
 
 * Mejorar la participación ciudadana
 * Trasparentar las actividades legislativas
