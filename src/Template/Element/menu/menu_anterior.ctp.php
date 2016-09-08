@@ -5,8 +5,8 @@
               <div class="header-column">
                 <div class="header-logo">
                   <a href="index.html">
-                 <img alt="Porto" width="111" height="54" data-sticky-width="82" data-sticky-height="40" data-sticky-top="33" src="img/icono.png">
-                </a>
+                    <img alt="Porto" width="111" height="95" data-sticky-width="82" data-sticky-height="90" data-sticky-top="33" src="img/icono.jpg">
+                  </a>
                 </div>
               </div>
               <div class="header-column">
@@ -43,18 +43,53 @@
                     <ul class="header-social-icons social-icons hidden-xs">
                       <li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
                       <li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                  <li class="social-icons-Instagram"><a href="https://www.instagram.com/" target="_blank" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                      <li class="social-icons-Instagram"><a href="https://www.instagram.com/" target="_blank" title="Instagram"><i class="fa fa-instagram"></i></a></li>
                     </ul>
                     <div class="header-nav-main header-nav-main-effect-1 header-nav-main-sub-effect-1 collapse">
                       <nav>
-                          <ul class="nav nav-pills" id="mainNav">
+                        <ul class="nav nav-pills" id="mainNav">
                           <li class="dropdown active">
                                 <?php echo $this->Html->link('Inicio',['class' => 'dropdown-toggle']) ?> 
                             <!--<a class="dropdown-toggle" href="index.html">
                               Inicio
                             </a>-->
-                         
-                            <li class="dropdown">
+                            <ul class="dropdown-menu">
+                              <li>
+                                <a href="index.html">Landing Page</a>
+                              </li>
+                              <li class="dropdown-submenu">
+                                <a href="index-classic.html">Classic</a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="index-classic.html">Classic - Original <span class="tip tip-dark">hot</span></a></li>
+                                  <li><a href="index-classic-color.html">Classic - Color</a></li>
+                                  <li><a href="index-classic-light.html">Classic - Light</a></li>
+                                  <li><a href="index-classic-video.html">Classic - Video</a></li>
+                                  <li><a href="index-classic-video-light.html">Classic - Video - Light</a></li>
+                                </ul>
+                              </li>
+                              <li class="dropdown-submenu">
+                                <a href="index-corporate.html">Corporate <span class="tip">new</span></a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="index-corporate.html">Corporate - Version 1 <span class="tip tip-dark">hot</span></a></li>
+                                  <li><a href="index-corporate-2.html">Corporate - Version 2</a></li>
+                                  <li><a href="index-corporate-3.html">Corporate - Version 3</a></li>
+                                  <li><a href="index-corporate-4.html">Corporate - Version 4</a></li>
+                                  <li><a href="index-corporate-5.html">Corporate - Version 5</a></li>
+                                  <li><a href="index-corporate-6.html">Corporate - Version 6</a></li>
+                                  <li><a href="index-corporate-7.html">Corporate - Version 7</a></li>
+                                  <li><a href="index-corporate-8.html">Corporate - Version 8</a></li>
+                                  <li><a href="index-corporate-hosting.html">Corporate - Hosting <span class="tip">new</span></a></li>
+                                </ul>
+                              </li>
+                              <li class="dropdown-submenu">
+                                <a href="#">One Page</a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="index-one-page.html">One Page Original</a></li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </li>
+                         <li class="dropdown">
                             <a class="dropdown-toggle" href="#">
                               Legisladores
                             </a>
@@ -63,69 +98,13 @@
                               <li><a href="portfolio-3-columns.html">Diputados</a></li>
                               <li><a href="portfolio-2-columns.html">Senadores</a></li>
                               <li><a href="portfolio-lightbox.html">Partidos Politicos</a></li>
+                          </li>
+                              
                             </ul>
                           </li>
-                         
                           <li class="dropdown">
                             <a class="dropdown-toggle" href="#">
-                               Materias
-                            </a>
-                            <ul class="dropdown-menu">
-                              <li class="dropdown-submenu">
-                                <a href="#">Shop</a>
-                                <ul class="dropdown-menu">
-                                  <li><a href="shop-full-width.html">Shop - Full Width</a></li>
-                                  <li><a href="shop-sidebar.html">Shop - Sidebar</a></li>
-                                  <li><a href="shop-product-full-width.html">Shop - Product Full Width</a></li>
-                                  <li><a href="shop-product-sidebar.html">Shop - Product Sidebar</a></li>
-                                  <li><a href="shop-cart.html">Shop - Cart</a></li>
-                                  <li><a href="shop-login.html">Shop - Login</a></li>
-                                  <li><a href="shop-checkout.html">Shop - Checkout</a></li>
-                                </ul>
-                              </li>
-                              <li class="dropdown-submenu">
-                                <a href="#">Blog</a>
-                                <ul class="dropdown-menu">
-                                  <li><a href="blog-full-width.html">Blog Full Width</a></li>
-                                  <li><a href="blog-large-image.html">Blog Large Image</a></li>
-                                  <li><a href="blog-medium-image.html">Blog Medium Image</a></li>
-                                  <li><a href="blog-timeline.html">Blog Timeline</a></li>
-                                  <li><a href="blog-post.html">Single Post</a></li>
-                                </ul>
-                              </li>
-                              <li class="dropdown-submenu">
-                                <a href="#">Layouts</a>
-                                <ul class="dropdown-menu">
-                                  <li><a href="page-full-width.html">Full width</a></li>
-                                  <li><a href="page-left-sidebar.html">Left Sidebar</a></li>
-                                  <li><a href="page-right-sidebar.html">Right Sidebar</a></li>
-                                  <li><a href="page-left-and-right-sidebars.html">Left and Right Sidebars</a></li>
-                                  <li><a href="page-sticky-sidebar.html">Sticky Sidebar</a></li>
-                                  <li><a href="page-secondary-navbar.html">Secondary Navbar</a></li>
-                                </ul>
-                              </li>
-                              <li class="dropdown-submenu">
-                                <a href="#">Extra</a>
-                                <ul class="dropdown-menu">
-                                  <li><a href="page-404.html">404 Error</a></li>
-                                  <li><a href="page-coming-soon.html">Coming Soon</a></li>
-                                  <li><a href="page-maintenance-mode.html">Maintenance Mode</a></li>
-                                  <li><a href="sitemap.html">Sitemap</a></li>
-                                </ul>
-                              </li>
-                              <li><a href="page-custom-header.html">Custom Header</a></li>
-                              <li><a href="page-team.html">Team</a></li>
-                              <li><a href="page-services.html">Services</a></li>
-                              <li><a href="page-careers.html">Careers</a></li>
-                              <li><a href="page-our-office.html">Our Office</a></li>
-                              <li><a href="page-faq.html">FAQ</a></li>
-                              <li><a href="page-login.html">Login / Register</a></li>
-                            </ul>
-                          </li>
-                         
-                          <li class="dropdown">
-                            <a class="dropdown-toggle" href="#">
-                              Votaciones
+                              Materias
                             </a>
                           
                             <ul class="dropdown-menu">
@@ -266,26 +245,104 @@
                               </li>
                             </ul>
                           </li>
-
-
-
-
-
                           <li class="dropdown">
                             <a class="dropdown-toggle" href="#">
-                               Leyes
+                              Votaciones
                             </a>
                             <ul class="dropdown-menu">
-                              <li><a href="about-us.html">About Us</a></li>
-                              <li><a href="about-us-basic.html">About Us - Basic</a></li>
-                              <li><a href="about-me.html">About Me</a></li>
+                              <li class="dropdown-submenu">
+                                <a href="#">Shop</a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="shop-full-width.html">Shop - Full Width</a></li>
+                                  <li><a href="shop-sidebar.html">Shop - Sidebar</a></li>
+                                  <li><a href="shop-product-full-width.html">Shop - Product Full Width</a></li>
+                                  <li><a href="shop-product-sidebar.html">Shop - Product Sidebar</a></li>
+                                  <li><a href="shop-cart.html">Shop - Cart</a></li>
+                                  <li><a href="shop-login.html">Shop - Login</a></li>
+                                  <li><a href="shop-checkout.html">Shop - Checkout</a></li>
+                                </ul>
+                              </li>
+                              <li class="dropdown-submenu">
+                                <a href="#">Blog</a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="blog-full-width.html">Blog Full Width</a></li>
+                                  <li><a href="blog-large-image.html">Blog Large Image</a></li>
+                                  <li><a href="blog-medium-image.html">Blog Medium Image</a></li>
+                                  <li><a href="blog-timeline.html">Blog Timeline</a></li>
+                                  <li><a href="blog-post.html">Single Post</a></li>
+                                </ul>
+                              </li>
+                              <li class="dropdown-submenu">
+                                <a href="#">Layouts</a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="page-full-width.html">Full width</a></li>
+                                  <li><a href="page-left-sidebar.html">Left Sidebar</a></li>
+                                  <li><a href="page-right-sidebar.html">Right Sidebar</a></li>
+                                  <li><a href="page-left-and-right-sidebars.html">Left and Right Sidebars</a></li>
+                                  <li><a href="page-sticky-sidebar.html">Sticky Sidebar</a></li>
+                                  <li><a href="page-secondary-navbar.html">Secondary Navbar</a></li>
+                                </ul>
+                              </li>
+                              <li class="dropdown-submenu">
+                                <a href="#">Extra</a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="page-404.html">404 Error</a></li>
+                                  <li><a href="page-coming-soon.html">Coming Soon</a></li>
+                                  <li><a href="page-maintenance-mode.html">Maintenance Mode</a></li>
+                                  <li><a href="sitemap.html">Sitemap</a></li>
+                                </ul>
+                              </li>
+                              <li><a href="page-custom-header.html">Custom Header</a></li>
+                              <li><a href="page-team.html">Team</a></li>
+                              <li><a href="page-services.html">Services</a></li>
+                              <li><a href="page-careers.html">Careers</a></li>
+                              <li><a href="page-our-office.html">Our Office</a></li>
+                              <li><a href="page-faq.html">FAQ</a></li>
+                              <li><a href="page-login.html">Login / Register</a></li>
+                            </ul>
+                          </li>
+                          <li class="dropdown">
+                            <a class="dropdown-toggle" href="#">
+                              Leyes
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a href="portfolio-4-columns.html">4 Columns</a></li>
+                              <li><a href="portfolio-3-columns.html">3 Columns</a></li>
+                              <li><a href="portfolio-2-columns.html">2 Columns</a></li>
+                              <li><a href="portfolio-lightbox.html">Portfolio Lightbox</a></li>
+                              <li><a href="portfolio-timeline.html">Portfolio Timeline</a></li>
+                              <li><a href="portfolio-full-width.html">Portfolio Full Width</a></li>
+                              <li><a href="portfolio-single-project.html">Single Project</a></li>
+                            </ul>
+                          </li>
+                          <li class="dropdown">
+                            <a class="dropdown-toggle" href="#">
+                              Periodos
+                            </a>
+                            <ul class="dropdown-menu">
+                              <?php
+        $xml = file_get_contents("https://www.leychile.cl/Consulta/obtxml?opt=31&agr=2");
+        $DOM = new DOMDocument('1.0', 'utf-8');
+        $DOM->loadXML($xml);
+        $Categorias = $DOM->getElementsByTagName('Categoria');
+        ?>
+        <?php
+        foreach($Categorias as $Categoria) {
+        echo '<li><a href="about-us.html'.$Categoria->getElementsByTagName("Descripcion")->item(0)->nodeValue.'" target="_blank">'.utf8_decode($Categoria->getElementsByTagName("Descripcion")->item(0)->nodeValue).'</a></li>';
+        }
+        ?>
+        </ul>
+        </li>
                             </ul>
                           </li>
                           <li class="dropdown">
                             <a class="dropdown-toggle" href="#">
                               Contacto
                             </a>
-                           
+                            <ul class="dropdown-menu">
+                              <li><a href="contact-us.html">Contact Us - Basic</a></li>
+                              <li><a href="contact-us-advanced.php">Contact Us - Advanced</a></li>
+                            </ul>
                           </li>
                         </ul>
                       </nav>

@@ -41,12 +41,15 @@ $cakeDescription = 'Part-ley';
     <?= $this->Html->css('bootstrap.css'); ?>
     <?= $this->Html->css('font-awesome.css'); ?>
     <?= $this->Html->css('simple-line-icons.css'); ?>
+    <?= $this->Html->css('owl.carousel.min'); ?>
+    <?= $this->Html->css('owl.theme.default.min'); ?>
     <?= $this->Html->css('magnific-popup.css'); ?>
     <?= $this->Html->css('theme.css'); ?>
     <?= $this->Html->css('theme-elements.css'); ?>
     <?= $this->Html->css('theme-blog.css'); ?>
     <?= $this->Html->css('theme-shop.css'); ?>
     <?= $this->Html->css('theme-animate.css'); ?>
+    
     <?= $this->Html->css('settings.css'); ?>
     <?= $this->Html->css('layers.css'); ?>
     <?= $this->Html->css('navigation.css'); ?>
@@ -73,7 +76,7 @@ $cakeDescription = 'Part-ley';
             <ul>
               <li data-transition="fade">
 
-                <img src="img/slides/slide-corporate-3.jpg"  
+                <img src="img/slide-corporate-3.jpg"  
                   alt=""
                   data-bgposition="center center" 
                   data-bgfit="cover" 
@@ -84,19 +87,19 @@ $cakeDescription = 'Part-ley';
                   data-x="177"
                   data-y="180"
                   data-start="1000"
-                  data-transform_in="x:[-300%];opacity:0;s:500;"><img src="img/slides/slide-title-border-light.png" alt=""></div>
+                data-transform_in="x:[-300%];opacity:0;s:500;"></div>
 
                 <div class="tp-caption top-label"
                   data-x="227"
                   data-y="180"
                   data-start="500"
-                  data-transform_in="y:[-300%];opacity:0;s:500;">DO YOU NEED A NEW</div>
+                  data-transform_in="y:[-300%];opacity:0;s:500;"></div>
 
                 <div class="tp-caption"
                   data-x="480"
                   data-y="180"
                   data-start="1000"
-                  data-transform_in="x:[300%];opacity:0;s:500;"><img src="img/slides/slide-title-border-light.png" alt=""></div>
+                  </div>
 
                 <div class="tp-caption main-label"
                   data-x="135"
@@ -105,18 +108,18 @@ $cakeDescription = 'Part-ley';
                   data-whitespace="nowrap"             
                   data-transform_in="y:[100%];s:500;"
                   data-transform_out="opacity:0;s:500;"
-                  data-mask_in="x:0px;y:0px;">WEB DESIGN?</div>
+                  data-mask_in="x:0px;y:0px;"></div>
 
                 <div class="tp-caption bottom-label"
                   data-x="185"
                   data-y="280"
                   data-start="2000"
-                  data-transform_in="y:[100%];opacity:0;s:500;">Check out our options and features.</div>
+                  data-transform_in="y:[100%];opacity:0;s:500;"></div>
                 
               </li>
               <li data-transition="fade">
 
-                <img src="img/slides/slide-corporate-4.jpg"  
+                <img src="img/slide-corporate-4.jpg"  
                   alt=""
                   data-bgposition="center center" 
                   data-bgfit="cover" 
@@ -129,7 +132,7 @@ $cakeDescription = 'Part-ley';
                   data-start="500"
                   style="z-index: 5"
                   data-transform_in="y:[100%];s:500;"
-                  data-transform_out="opacity:0;s:500;">WELCOME TO PORTO</div>
+                  data-transform_out="opacity:0;s:500;"></div>
 
                 <div class="tp-caption bottom-label"
                   data-x="center"
@@ -143,7 +146,7 @@ $cakeDescription = 'Part-ley';
                   data-splitout="none" 
                   data-responsive_offset="on"
                   style="font-size: 23px; line-height: 30px;"
-                  data-elementdelay="0.05">The #1 Selling HTML Site Template on ThemeForest</div>
+                  data-elementdelay="0.05"></div>
 
               </li>
             </ul>
@@ -192,6 +195,8 @@ $cakeDescription = 'Part-ley';
           <div class="row">
             <div class="col-md-4">
               <div class="feature-box feature-box-style-2 appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="0">
+
+
                 <div class="feature-box-icon">
                   <i class="icon-user-following icons"></i>
                 </div>
@@ -368,7 +373,7 @@ $cakeDescription = 'Part-ley';
             <div class="row">
               <div class="col-md-1">
                 <a href="index.html" class="logo">
-                  <img alt="Porto Website Template" class="img-responsive" src="img/logo-footer.png">
+                  <img alt="Porto Website Template" class="img-responsive" src="img/footer.png">
                 </a>
               </div>
               <div class="col-md-7">
@@ -389,10 +394,13 @@ $cakeDescription = 'Part-ley';
       </footer>
 
 
+      <!--JQUERYS IMPORTADOS -->
+
 
 
     <?= $this->Html->script('jquery-1.11.3'); ?>
     <?= $this->Html->script('bootstrap'); ?>
+    
     <?= $this->Html->script('modernizr'); ?>  
     <?= $this->Html->script('respond'); ?>
     <?= $this->Html->script('excanvas'); ?>
@@ -412,16 +420,42 @@ $cakeDescription = 'Part-ley';
     <?= $this->Html->script('jquery.isotope'); ?>
     <?= $this->Html->script('owl.carousel'); ?>
     <?= $this->Html->script('jquery.magnific-popup'); ?>
-    <?= $this->Html->script('jquery.easy-pie-chart'); ?>
     <?= $this->Html->script('vide'); ?>
-
     <?= $this->Html->script('theme'); ?>
     <?= $this->Html->script('jquery.themepunch.tools.min'); ?>
+    <?= $this->Html->script('jquery.themepunch.revolution.min'); ?>
+    <?= $this->Html->script('revolution.extension.actions.min'); ?>
+    <?= $this->Html->script('revolution.extension.carousel.min'); ?>
+
+
+    <?= $this->Html->script('revolution.extension.kenburn.min'); ?>
+    <?= $this->Html->script('revolution.extension.layeranimation.min'); ?>
+    <?= $this->Html->script('revolution.extension.migration.min'); ?>
+
+    <?= $this->Html->script('revolution.extension.navigation.min'); ?>
+    <?= $this->Html->script('revolution.extension.parallax.min'); ?>
+
+    <?= $this->Html->script('revolution.extension.slideanims.min'); ?>
+
+    <?= $this->Html->script('revolution.extension.video.min'); ?>
+
+    <?= $this->Html->script('jquery.flipshow'); ?>
+
+     
+
+    <?= $this->Html->script('view.home'); ?>
+    <?= $this->Html->script('custom'); ?>
+    <?= $this->Html->script('theme.init'); ?>
     <?= $this->Html->script('owl.carousel'); ?>
     <?= $this->Html->script('jquery.magnific-popup'); ?>
-    <?= $this->Html->script('jquery.easy-pie-chart'); ?>
+     <?= $this->Html->script('jquery.easy-pie-chart'); ?>
     <?= $this->Html->script('vide'); ?>
-     <?= $this->Html->script('theme.init'); ?>
+    
+    <?= $this->Html->script('jquery.themepunch.tools.min'); ?>
+    <?= $this->Html->script('jquery.themepunch.revolution.min'); ?>
+
+
+
 
 
     
