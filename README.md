@@ -1,26 +1,23 @@
-# CakePHP Application Skeleton
+# Part-ley
 
-[![Build Status](https://img.shields.io/travis/cakephp/app/master.svg?style=flat-square)](https://travis-ci.org/cakephp/app)
-[![License](https://img.shields.io/packagist/l/cakephp/app.svg?style=flat-square)](https://packagist.org/packages/cakephp/app)
+## Descripción
 
-A skeleton for creating applications with [CakePHP](http://cakephp.org) 3.x.
+Aplicación web para apoyar la transparencia legislativa en Chile. Entrega información y gráficos interactivos, respecto del proceso legislativo.
 
-The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
+## Objetivos
 
-## Installation
+* Mejorar la participación ciudadana
+* Trasparentar las actividades legislativas
+* Informar las tendencias e históricos
+* Simplificar la información expuesta
+* Generar instancias de debate
 
-1. Download [Composer](http://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
-2. Run `php composer.phar create-project --prefer-dist cakephp/app [app_name]`.
 
-If Composer is installed globally, run
-```bash
-composer create-project --prefer-dist cakephp/app [app_name]
-```
+## Especificaciones
 
-You should now be able to visit the path to where you installed the app and see
-the setup traffic lights.
+El framework utilizado sera cakephp en su version mas reciente y estable 3.3 con mysql en version 5.5.9 o mas reciente.
+Se utilizara la api de leychile.cl, se extraeran datos de senado.cl, ademas se ocuparan las api´s de facebook, twitter e instagram.
 
-## Configuration
+## Configuración
 
-Read and edit `config/app.php` and setup the 'Datasources' and any other
-configuration relevant for your application.
+Leer y editar el archivo `config/app.php` y settear los recursos y otras configuraciones relevantes para tu aplicación.
